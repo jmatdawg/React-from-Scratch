@@ -1,5 +1,8 @@
 let fs = require('fs');
 let shortid = require('shortid');
+const path = require('path');
+
+const chirpsPath = path.join(__dirname, '..', 'chirps.json');
 
 
 let chirps = [];
